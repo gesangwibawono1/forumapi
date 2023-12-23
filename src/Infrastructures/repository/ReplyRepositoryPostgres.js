@@ -26,7 +26,7 @@ class ReplyRepositoryPostgres extends ReplyRepository {
     const replyQuery = {
       text: `SELECT
                     replies.id AS id,
-                    replies.comment as comment,
+                    replies.comment AS comment,
                     users.username AS username,
                     replies.date AS date,
                     replies.content AS content,

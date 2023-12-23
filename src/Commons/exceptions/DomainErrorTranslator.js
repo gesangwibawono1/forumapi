@@ -35,6 +35,8 @@ DomainErrorTranslator._directories = {
   'ADDED_REPLY.NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('tidak dapat membuat reply baru karena tipe data tidak sesuai'),
   'DETAIL_REPLY.NOT_CONTAIN_NEEDED_PROPERTY': new InvariantError('property tidak lengkap'),
   'DETAIL_REPLY.NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('tipe data tidak sesuai'),
+  'ADD_LIKE.NOT_CONTAIN_NEEDED_PROPERTY': new InvariantError('property tidak lengkap'),
+  'ADD_LIKE.NOT_MEET_DATA_TYPE_SPECIFICATION': new InvariantError('tipe data tidak sesuai'),
 };
 
 module.exports = DomainErrorTranslator;

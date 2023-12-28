@@ -38,7 +38,7 @@ jobs:
       run: |
         npm install
         npm run migrate:test up
-        npm run test
+        npm run test2
       env:
         CI: true
         PGHOST_TEST: localhost

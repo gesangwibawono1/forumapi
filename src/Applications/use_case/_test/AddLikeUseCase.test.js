@@ -16,7 +16,7 @@ describe('AddLikeUseCase', () => {
 
     mockThreadRepository.checkAvailabilityThread = jest.fn(() => Promise.resolve());
     mockCommentRepository.checkAvailabilityComment = jest.fn(() => Promise.resolve());
-    mockLikeRepository.existsByCommentAndOwner = jest.fn(() => Promise.resolve(false));
+    mockLikeRepository.existsByCommentAndOwner = jest.fn(() => Promise.resolve(true));
     mockLikeRepository.deleteLikeByCommentIdAndOwner = jest.fn(() => Promise.resolve());
     mockLikeRepository.addLike = jest.fn(() => Promise.resolve());
 
